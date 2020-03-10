@@ -16,7 +16,7 @@ while True:
     if (board!=0).all(): break
 
 def column(piece):
-    colu = piece[0:-4]+piece[1:-3]+piece[2:-2]+piece[3:-1]
+    colu = piece[0:-4] + piece[1:-3] + piece[2:-2] + piece[3:-1]
     if (colu==4).any(): print("True")
     print(colu)
 
